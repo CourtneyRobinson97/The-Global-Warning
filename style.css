@@ -1,0 +1,274 @@
+<!-- STYLESHEET -->	
+
+		h2, h3,p{
+			margin-bottom: 30px;
+			text-align: center;
+		}
+		
+		h1{
+			color: #2D3B64;
+			font-size: 50px;
+			font-family: 'Solway', serif;
+		}
+		
+		body{
+			color: white;
+			background: #070D1A;
+		    font-family: 'Solway', serif;
+			font-size: 21px;
+			padding: 0;
+			margin: 0;
+		}
+		
+		h2{
+			font-size: 35px;
+			font-family: 'Solway', serif;
+			padding-left: 150px;
+			padding-right: 150px;
+			text-align: center;
+			padding-bottom: 50px;
+		}
+		
+		h3{
+			font-family: 'Solway', serif;
+		}
+		
+		#intro{
+			text-align: center;
+			padding-bottom: 50px;
+		}
+		
+		#intro p{
+			font-size: 24px;
+			text-align: center;
+			padding-left: 300px;
+			padding-right: 300px;
+		}
+		
+		#intro img{
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		
+		#navigation{
+			text-align: center;
+			width: 100%;
+			background: #000;
+			overflow: hidden;
+			border: 0;
+			
+		}
+		
+				.grid-container {
+ 			display: grid;
+  			grid-template-columns: auto auto;
+  			grid-gap: 50px;
+  			padding-top: 30px;
+  			padding-bottom: 30px;
+  			padding-left: 300px;
+  			padding-right: 300px;
+		}
+
+		.grid-item {
+			box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  			text-align: center;
+  			width: 350px;
+		}
+
+				
+		#navigation ul{
+			text-align: right;
+			padding-left: 0px;
+			width: auto;
+			padding-right: 50px;
+			padding-top: 25px;
+		}
+		
+		#navigation ul li{
+			text-align: center;
+			display: inline-block;
+			padding: 0;
+			width: auto;
+		}
+		
+		#navigation a {
+			color: #fff;
+			font-size: 24px;
+			background: #000;
+			text-decoration: none;
+			padding: 20px 20px;
+			margin: 0px;
+			width: auto;
+		}
+		
+		#navigation a:hover, a:active {
+			text-decoration: none;
+			color: #55C3A7; 
+			width: auto;
+		}
+		
+		#navigation img{
+			float: left;
+			padding-left: 50px;
+			padding-top: 20px;
+		}
+		
+		footer {
+			text-align: center;
+			font-size: 16px;
+		}
+		
+		#about {
+			background: #ffffff;
+			color: #070D1A;
+			text-align: center;
+		}
+		
+		#about h1{
+			text-align: center;
+			padding-top: 100px;
+		}
+		
+		#about p{
+			padding-left: 300px;
+			padding-right: 300px;
+			text-align: left;
+		}
+		
+		#contact{
+			text-align: center;
+		}
+		
+		#contact h1{
+			color: #ffffff;
+			text-align: center;
+			padding-top: 20px;
+		}
+		
+		#intro button {
+			background: #55C3A7;
+			font-family: 'Solway', serif;
+			font-size: 18px;
+			padding-left: 100px;
+			padding-right: 100px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			border-radius: 12px;
+			border: none;
+			text-align: center;
+			margin-top: 90px;
+			transition: all 0.5s;
+  			cursor: pointer;
+		}
+		
+		#intro button span {
+  			cursor: pointer;
+  			display: inline-block;
+  			position: relative;
+  			transition: 0.5s;
+		}
+
+		#intro button span:after {
+ 			content: '\00bb';
+  			position: absolute;
+  			opacity: 0;
+  			top: 0;
+  			right: -20px;
+  			transition: 0.5s;
+  			color: #fff;
+		}
+
+		#intro button:hover span {
+  			padding-right: 25px;
+  			color: #fff;
+		}
+
+		#intro button:hover span:after {
+  			opacity: 1;
+  			right: 0;
+  			color: #fff;
+		}
+		
+		#intro button a {
+			text-transform: uppercase;
+			color: #fff;
+			font-size: 21px;
+			text-decoration: none;
+
+		}
+		
+		#intro button a:hover, a:active {
+			text-decoration: none;
+			color: #fff;
+		}
+		
+		#email {
+			text-align: center;
+			padding-top: 50px;
+			padding-left: 20px;
+			padding-bottom: 150px;
+		}
+		
+		#email a {
+			text-transform: uppercase;
+			color: #fff;
+			font-size: 18px;
+			margin: 0px;
+			width: auto;
+			text-decoration: none;
+		}
+		
+		#comic{
+			text-align: center;
+			padding-bottom: 100px;
+		}
+		
+		#comic img{
+			padding-top: 30px;
+			padding-bottom: 50px;
+		}
+		
+		#comic p{
+			text-align: left;
+		}
+		
+		#email a:hover, a:active {
+			color: #55C3A7; 
+			width: auto;
+		}
+		
+		#email p{
+			padding-top: 80px;
+		}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 50%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: 'Solway', serif;
+  font-size: 16px;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #55C3A7;
+  color: #070D1A;
+  border: none;
+  font-family: 'Solway', serif;
+}
+
+input[type=submit]:hover {
+  color: #fff;
+  background-color: #55C3A7;
+}
+
+<!-- END OF STYLESHEET -->	
