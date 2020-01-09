@@ -1,2 +1,2 @@
 # The-Global-Warning
-https://courtneyrobinson97.github.io/The-Global-Warning/index.html
+https://courtneyrobinson97.github.io/The-Global-Warning/
